@@ -91,7 +91,7 @@ NSString *normalizeFilePath(NSString *path)
                 }
             }
         }
-        else // The Original string was already good to begin with...but it's too late now
+        else // No "foo/../bar" case was found
         {
             scan = DONE;
         }
